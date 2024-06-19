@@ -14,7 +14,7 @@ func ping(w http.ResponseWriter, r *http.Request) {
 
 func test(w http.ResponseWriter, r *http.Request) {
     fmt.Println("/test endpoint was invoked")
-    fmt.Fprintf(w, "LoL")
+    fmt.Fprintf(w, "Wot")
 }
 
 func hello(w http.ResponseWriter, r *http.Request) {
