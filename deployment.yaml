@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: hello-go
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: hello-go
@@ -16,4 +16,4 @@ spec:
       - name: hello-go
         image: jovan99djokic/hello-go:3.0
         ports:
-        - containerPort: 8000
+        - containerPort: 8080
