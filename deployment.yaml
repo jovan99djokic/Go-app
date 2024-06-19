@@ -17,3 +17,7 @@ spec:
         image: jovan99djokic/hello-go:3.0
         ports:
         - containerPort: 8080
+  strategy:
+   type: RollingUpdate
+   rollingUpdate:
+     maxUnavailable: 1

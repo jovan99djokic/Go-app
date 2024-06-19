@@ -9,7 +9,7 @@ import (
 // controller definitions
 func ping(w http.ResponseWriter, r *http.Request) {
     fmt.Println("/ping endpoint was invoked")
-    fmt.Fprintf(w, "PONG")
+    fmt.Fprintf(w, "Ping ping")
 }
 
 func test(w http.ResponseWriter, r *http.Request) {
@@ -19,7 +19,7 @@ func test(w http.ResponseWriter, r *http.Request) {
 
 func hello(w http.ResponseWriter, r *http.Request) {
     fmt.Println("/hello endpoint was invoked")
-    fmt.Fprintf(w, "HELLO WORLD!!")
+    fmt.Fprintf(w, "HELLO Hello!!")
 }
 
 func main() {
