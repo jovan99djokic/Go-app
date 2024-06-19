@@ -28,7 +28,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: jovan99djokic/hello-go:3.0
+        tags: jovan99djokic/hello-go:latest
 
     - name: Log out from Docker Hub
       run: docker logout
