@@ -23,6 +23,6 @@ func main() {
     http.HandleFunc("/hello", hello)
 
     // start the server, listen on localhost port 8000
-    fmt.Println("Jovan's server is now running extra good")
+    fmt.Println("Jovan's server is now running extra super duper good")
     log.Fatal(http.ListenAndServe(":8000", nil))
 }
